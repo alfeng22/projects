@@ -1,0 +1,30 @@
+h1{
+    font-size: 400%;
+    font-family: 'georgia';
+    color: rgb(181, 221, 255);
+    text-align: center;
+    /* border: 3px solid darkblue;
+    padding: 10px; */
+}
+body{
+    background-color: aliceblue;
+}
+.navbar {
+    text-align: center;
+    background-color:rgb(226, 241, 255);
+    overflow: auto;
+}
+.navbar a{
+    /* float: left; */
+    padding: 30px;
+    color: rgb(151, 151, 151);
+    text-decoration: dashed;
+    font-size: 17px;
+    width: 33.3%;
+}
+li {
+    display:inline;
+    text-align: right;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
