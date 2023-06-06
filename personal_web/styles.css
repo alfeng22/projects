@@ -5,12 +5,12 @@ h1{
     text-align: center;
 }
 div{
-    background-color: aliceblue;
+    /* background-color: aliceblue;
     padding: 10px;
     font-size: 550%;
     font-family: 'georgia';
     color: rgb(181, 221, 255);
-    text-align: center;
+    text-align: center; */
 }
 body{
     background-color: rgb(89, 163, 241);
@@ -22,7 +22,7 @@ body{
 } */
 #header {
     background-color: aliceblue;
-    padding: 20px;
+    padding: 25px;
     color: rgb(181, 221, 255);
     text-align: center;
     font-size: 110px; 
@@ -30,10 +30,16 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    transition: 0.2s;
+    transition: .5s;
 }
 #naver {
     padding:20px;
+    background-color: aliceblue;
+    padding: 10px;
+    font-size: 550%;
+    font-family: 'georgia';
+    color: rgb(181, 221, 255);
+    text-align: center;
 }
 article{
     background-color: white;
@@ -95,3 +101,15 @@ h3{
     font-size: 30px;
     color: rgb(157, 209, 255)
 }
+.slideshow-container{
+    margin: auto;
+    position: relative;
+}
+.mySlides{
+    /* display: none; */
+}
+.slidetext{
+    font-size: 10px;
+    text-align: center;
+}
+
