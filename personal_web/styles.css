@@ -1,26 +1,27 @@
 h1{
-    font-size: 400%;
+    font-size: 450%;
     font-family: 'georgia';
     color: rgb(181, 221, 255);
     text-align: center;
-    /* border: 3px solid darkblue;
-    padding: 10px; */
+}
+body{
+    background-color: rgb(89, 163, 241);
 }
 
 header{
     background-color: aliceblue;
-    padding: 10px;
+    padding: .1px;
 }
 article{
-    background-color: cyan;
+    background-color: white;
     float: left;
-    padding: 0px;
-    width: 40%;
+    padding: 46px;
+    width: 27%;
 }
 aside{
-    background-color: darkblue;
+    background-color: white;
     float: left;
-    padding: 0px;
+    padding: 20px;
     text-align: left;
     width: 60%;
 }
@@ -50,5 +51,24 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:70%;
+    width:100%;
+}
+strong{
+    color:rgb(157, 209, 255);
+}
+p{
+    font-size: 24.5px;
+    background-color: aliceblue;
+    padding:7px;
+    color:rgb(48, 48, 48);
+}
+h2{
+    padding: 5px;
+    color: rgb(181, 221, 255);
+    background-color: aliceblue;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(157, 209, 255)
 }
