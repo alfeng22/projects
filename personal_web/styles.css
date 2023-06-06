@@ -4,13 +4,36 @@ h1{
     color: rgb(181, 221, 255);
     text-align: center;
 }
+div{
+    background-color: aliceblue;
+    padding: 10px;
+    font-size: 550%;
+    font-family: 'georgia';
+    color: rgb(181, 221, 255);
+    text-align: center;
+}
 body{
     background-color: rgb(89, 163, 241);
 }
 
-header{
+/* header{
     background-color: aliceblue;
     padding: .1px;
+} */
+#header {
+    background-color: aliceblue;
+    padding: 20px;
+    color: rgb(181, 221, 255);
+    text-align: center;
+    font-size: 110px; 
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+}
+#naver {
+    padding:20px;
 }
 article{
     background-color: white;
