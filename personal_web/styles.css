@@ -4,6 +4,7 @@ h1{
     color: rgb(181, 221, 255);
     text-align: center;
 }
+
 div{
     /* background-color: aliceblue;
     padding: 10px;
@@ -13,14 +14,11 @@ div{
     text-align: center; */
     
 }
+
 body{
     background-color: rgb(89, 163, 241);
 }
 
-/* header{
-    background-color: aliceblue;
-    padding: .1px;
-} */
 #header {
     background-color: aliceblue;
     padding: 25px;
@@ -32,7 +30,9 @@ body{
     top: 0;
     width: 100%;
     transition: .3s;
+    z-index: 1;
 }
+
 #naver {
     padding:20px;
     background-color: aliceblue;

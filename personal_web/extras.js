@@ -1,7 +1,5 @@
 window.onscroll = function() {scrollFunction()};
 
-// add new font sizes
-
 function scrollFunction() { 
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
         document.getElementById("header").style.fontSize = "40px";
