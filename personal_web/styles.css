@@ -5,15 +5,9 @@ h1{
     text-align: center;
 }
 
-div{
-    /* background-color: aliceblue;
-    padding: 10px;
-    font-size: 550%;
-    font-family: 'georgia';
-    color: rgb(181, 221, 255);
-    text-align: center; */
-    
-}
+/* div{
+
+} */
 
 body{
     background-color: rgb(89, 163, 241);
@@ -29,7 +23,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    transition: .3s;
+    transition: .2s;
     z-index: 1;
 }
 
@@ -45,13 +39,13 @@ body{
 article{
     background-color: white;
     float: left;
-    padding: 46px;
-    width: 27%;
+    padding: 48px;
+    width: 28%;
 }
 aside{
     background-color: white;
     float: left;
-    padding: 20px;
+    padding: 24px;
     text-align: left;
     width: 60%;
 }
@@ -98,9 +92,14 @@ h2{
     background-color: aliceblue;
 }
 h3{
-    text-align: center;
     font-size: 30px;
-    color: rgb(157, 209, 255)
+    color: rgb(157, 209, 255);
+    background-color: aliceblue;
+    width: 28%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding:10px;
 }
 
 /* * {box-sizing:border-box} */
@@ -113,11 +112,15 @@ h3{
 .text {
     color: #f2f2f2;
     font-size: 15px;
-    padding: 8px 12px;
+    padding: 12px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
+    width: 97.6%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    background-color: black;
+    opacity: 70%;
 }
 .numbertext {
     color: #f2f2f2;
@@ -144,12 +147,11 @@ h3{
     right: 0;
     border-radius: 3px;
 }
-.prev:hover{
+.prev:hover, .next:hover{
     background-color: rgba(0,0,0,0.8);
+    opacity: 70%;
 }
-.next:hover{
-    background-color: rgba(0,0,0,0.8);
-} 
+
 .dot {
     cursor: pointer;
     height: 15px;
